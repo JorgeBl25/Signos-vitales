@@ -11,7 +11,7 @@ int main (){
 
     cout << "ingrese temperatura en F: " << endl;
     cin >> fahrenheit;
-    cout << "temperatura en C: " << fahrenheitACelsius(fahrenheit) << endl;
+    cout << "temperatura en C: " << fahrenheitACelsius(fahrenheit) << " °C" <<endl;
 
     return 0;
 
