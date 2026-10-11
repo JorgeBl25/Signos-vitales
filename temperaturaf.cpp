@@ -2,11 +2,12 @@
 
 using namespace std;
 
+
 double fahrenheitACelsius (double f) {
     return (f - 32) * 5 / 9;
 }
+ int main () {
 
-int main (){
     double fahrenheit;
 
     cout << "ingrese temperatura en F: " << endl;
@@ -16,3 +17,5 @@ int main (){
     return 0;
 
 }
+
+ 
